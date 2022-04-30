@@ -8,8 +8,13 @@
 
 ### 2. 目录结构  
 
-* doc      ---用来存放相关datasheet等文档
+* doc      ---用来存放相关datasheet等文档3
 * hardware  ---用来存放硬件部分原理图和PCB等文件
+  * name_CAM  :文件，发给PCB板厂
+  * name_PRJ :工程文件，原理图以及PCB文件等
+  * name_BOM :物料文件
+  * name_ASM :贴片文件，发送给贴片厂
+
 * model      ---用来存放外壳或者其他模型文件
 * sofeware   ---用来存放软件等相关内容
   * lib     --用来存放外设的库文件等
